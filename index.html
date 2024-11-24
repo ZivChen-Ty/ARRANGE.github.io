@@ -53,74 +53,32 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
 <!--               <sup>*</sup> -->
+<!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhiwei Chen<sup>1</sup></a>,</span> -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhiwei Chen</a>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Zixu Li</a>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zhiheng Fu</a>,
-                  </span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yinwei Wei</a>,
-                  </span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yupeng Hu</a>,
-                  </span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Weili Guan</a>
-                  </span>
+                <span>Zhiwei Chen<sup>1</sup></span>,
+              </span>
+              <span class="author-block">
+                <span>Zixu Li<sup>1</sup></span>,
+              </span>
+              <span class="author-block">
+                <span>Zhiheng Fu<sup>1</sup></span>,
+              </span>
+              <span class="author-block">
+                <span>Yinwei Wei<sup>2</sup></span>,
+              </span>
+              <span class="author-block">
+                <span>Yupeng Hu<sup>1</sup></span>,
+              </span>
+              <span class="author-block">
+                <span>Weili Guan<sup>3</sup></span>,
+              </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Shandong University<br>2024</span>
+                    <span class="author-block"><sup>1</sup>Shandong University,<sup>2</sup>Monash University,<sup>3</sup>Harbin Institute of Technology (Shenzhen)<br>Date: 2024-11</span>
 <!--                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/ZivChen-Ty/ARRANGE.git" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -138,7 +96,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-Visual-linguistic pretraining models have been widely applied in numerous visual and linguistic (V+L) downstream tasks due to their outstanding cross-modal comprehension capabilities, and significant progress has also been made in multi-task learning models tailored for different V+L tasks. However, due to the discrepancy and comprehension difficulty of visual and textual contents in diverse domains, existing studies tend to focus on V+L multi-task learning for specific domains and neglect that for open domains. Nevertheless, this is non-trivial due to the following two challenges: \textbf{1) referring granularity discrepancy}, and \textbf{2) alignment specificity}. To address the above challenges, we propose a novel V+L multi-task learning approach (\textbf{ARRANGE}) that can accommodate both specific-domain and open-domain scenarios. Compared to existing methods, ARRANGE employs a unified model to handle multiple heterogeneous V+L tasks and thus exhibits high parameter efficiency and domain generalization. ARRANGE generates referring tokens through unified referring embedding and learns the alignment specificity of individual tasks to adaptively align visual and textual referring. Extensive experiments on six benchmark datasets (\textbf{covering both specific and open domains}) for three V+L tasks show that our proposed ARRANGE significantly outperforms previous specific-domain-oriented V+L multi-task learning methods and surpasses traditional single-task models.
+            Visual-linguistic pretraining models have been widely applied in numerous visual and linguistic (V+L) downstream tasks due to their outstanding cross-modal comprehension capabilities, and significant progress has also been made in multi-task learning models tailored for different V+L tasks. However, due to the discrepancy and comprehension difficulty of visual and textual contents in diverse domains, existing studies tend to focus on V+L multi-task learning for specific domains and neglect that for open domains. Nevertheless, this is non-trivial due to the following two challenges: 1) referring granularity discrepancy, and 2) alignment specificity. To address the above challenges, we propose a novel V+L multi-task learning approach (ARRANGE) that can accommodate both specific-domain and open-domain scenarios. Compared to existing methods, ARRANGE employs a unified model to handle multiple heterogeneous V+L tasks and thus exhibits high parameter efficiency and domain generalization. ARRANGE generates referring tokens through unified referring embedding and learns the alignment specificity of individual tasks to adaptively align visual and textual referring. Extensive experiments on six benchmark datasets (covering both specific and open domains) for three V+L tasks show that our proposed ARRANGE significantly outperforms previous specific-domain-oriented V+L multi-task learning methods and surpasses traditional single-task models.
           </p>
         </div>
       </div>
@@ -148,10 +106,28 @@ Visual-linguistic pretraining models have been widely applied in numerous visual
 <!-- End paper abstract -->
 
 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-fifths">
+        <h2 class="title is-3">Tasks</h2>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/Intro.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Illustrations of the V+L tasks studied in this work.
+          </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container  has-text-centered">
+        <h2 class="title is-3">Framework</h2>
       <!-- <div id="results-carousel" class="carousel results-carousel"> -->
         <div class="item">
           <!-- Your image here -->
@@ -160,6 +136,7 @@ Visual-linguistic pretraining models have been widely applied in numerous visual
             The proposed ARRANGE consists of three primary modules: (a) Uniform Feature Extraction, (b) Referring Token Embedding, and (c) Task-free Alignment Learning, followed by Downstream Task Optimization.
           </h2>
           </div>
+
   <!-- </div> -->
 </div>
 </div>
@@ -167,12 +144,50 @@ Visual-linguistic pretraining models have been widely applied in numerous visual
 <!-- End image carousel -->
 
 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container  has-text-centered">
+      <h2 class="title is-3">Experiment</h2>
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/ITM.png" alt="MY ALT TEXT"/>
+        </div>
+        <br>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/TGIR.png" alt="MY ALT TEXT"/>
+        </div>
+        <br>
+        <div class="item">
+          <!-- Your image here -->
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-two-fifths">
+              <img src="static/images/SPML.png" alt="MY ALT TEXT"/>
+            </div>
+            <div class="column is-three-fifths">
+              <img src="static/images/Attention.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Attention Visualization on (a) ITM, (b) TGIR, and (c) SPML tasks.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <br>
+
+
+
+  <!-- </div> -->
+</div>
+</div>
+</section>
+
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code></code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
